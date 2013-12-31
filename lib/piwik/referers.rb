@@ -1,7 +1,7 @@
 module Piwik
   class Referers < ApiModule
     available_methods %W{
-      getRefererType
+      getReferrerType
       getKeywords
       getKeywordsForPageUrl
       getKeywordsForPageTitle
