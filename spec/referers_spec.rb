@@ -16,8 +16,8 @@ describe 'Piwik::Referers' do
     it { subject.get_campaigns(params).empty?.should eq(true) }
   end
   
-  describe "#get_referer_type" do
-    assert_data_integrity(:get_referer_type, :size => 3)
+  describe "#get_referrer_type" do
+    assert_data_integrity(:get_referrer_type, :size => 3)
   end
   
   describe "#get_number_of_distinct_keywords" do
